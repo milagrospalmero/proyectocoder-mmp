@@ -98,6 +98,11 @@
     background-color: #1D6542 ;
     color: white;
     height: 2.5em;
+    /*efecto del boton */
+    background: #093028; 
+    background: -webkit-linear-gradient(to left, #237A57, #093028); 
+    background: linear-gradient(to left, #237A57, #093028); 
+
 }
 
 /*Fin de estilo del buacador*/
