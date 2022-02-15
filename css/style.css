@@ -42,26 +42,13 @@
 /*Fin de Header*/
 
 /*Inicio de estilo de la barra navegadora*/
-.nav-container{
-    padding: 2% 0;
+/*inicio estilo nav en boostrap*/
+.nav-color{
     background-color: #1D6542;
-    display: flex;
-    justify-content: center;
-    
 }
-.barra{
-    width: 90%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.item{
-    color: white;
-    text-decoration: none;
-    display: flex;
-    
-}
-/*Fin de estilo de la barra navegadora*/
+
+/*Fin estilo nav boostrap*/
+
 
 /*foto de portada*/
 .foto-portada{
