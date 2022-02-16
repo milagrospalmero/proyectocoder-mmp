@@ -4,16 +4,22 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 /*Inicio de header*/
+
+
+
 .header-container{
         
     background-color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     
 }
 .header{
-    width: 95%;
+    width: 80%;
     display: flex;
+    justify-content: space-between;
+  
+    
    
     
 }
@@ -24,17 +30,19 @@
    
     
 }
+
 .logo{
     width: 40%;
     display: flex;
     justify-content: flex-start;
 }
 .social{
-    width: 30%;
+    width: 2rem;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
     
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
 }
 
 
@@ -45,6 +53,10 @@
 /*inicio estilo nav en boostrap*/
 .nav-color{
     background-color: #1D6542;
+}
+.nav-position{
+    display: flex;
+    justify-content: space-around;
 }
 
 /*Fin estilo nav boostrap*/
@@ -232,9 +244,9 @@ li{
 /* Fin de estilo de proctos alquiler, venta y emprendimientos*/
 
 @media screen and (max-width: 480px){
-    .social {width: 70%;}
+    
     .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
-    .header{ width: 80%;
+    .header{ width: 70%;
     }
     .logo{
         width: 60%;
@@ -243,11 +255,13 @@ li{
     .buscador-item{
         width: 60%;
         margin-right: 5%;
-        margin-top: 2.5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
     }
     .buscador-palabra{
         width: 80%;
-        margin-top: 2.5%;
+        margin-top: 5%;
+        margin-bottom: 5%;
         
     }
     .datos-footer{
@@ -276,13 +290,16 @@ li{
      }
 }
 
-@media screen and (min-width: 481px) and(max-width: 980px){
-    .social {width: 100%;}
+@media screen and (min-width: 481px) and(max-width:2300px){
+    .social {width: 50%}
     .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
     .header{ width: 80%;
     }
     .logo{
         width: 60%;
+    }
+    .buscador-item{
+        margin-bottom: 5%;
     }
     .foto-producto{
         width: 90%;
