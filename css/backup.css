@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Inicio de header*/
+
+
+
+.header-container{
+        
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  
+    
+   
+    
+}
+.header-logo, .header-wp, .header-correo, .header-facebook, .header-insta{
+    
+    display: flex;
+   align-items: center;
+   
+    
+}
+
+.logo{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+.social{
+    width: 2rem;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+
+
+/*Fin de Header*/
+
+/*Inicio de estilo de la barra navegadora*/
+/*inicio estilo nav en boostrap*/
+.nav-color{
+    background-color: #1D6542;
+}
+.nav-position{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Fin estilo nav boostrap*/
+
+
+/*foto de portada*/
+.foto-portada{
+    width: 100%;
+    
+}
+
+/*Estilo de buscador */
+
+.buscador{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    
+    
+}
+.buscador>p{
+    margin-top: 0.7%;
+}
+.buscador-item{
+    width: 15%;
+    height: 3em;
+    border: 2px solid #1D6542;
+    
+    
+}
+.buscador-palabra{
+    width: 30%;
+    border: 2px solid #1D6542;
+    height: 3em;
+}
+.container-boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    
+}
+.boton-buscar{
+    width: 20%;
+    background-color: #1D6542 ;
+    color: white;
+    height: 2.5em;
+    
+}
+.boton-buscar:hover{
+    background-color: #2c9763;
+}
+li{     
+    border-radius: 3%;
+}
+
+/*Fin de estilo del buacador*/
+
+/*Inicio estilo de titulos y descipciones  e informacion*/
+.titulo {
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: 2.5em;
+    color: #1D6542;
+    
+}
+.container-desc-nosotros {
+    display: flex;
+    justify-content: center;
+}
+.descripcion-nosotros{
+    text-align: center;
+    width: 80%;
+    line-height: 3em;
+    margin-bottom: 3em;
+}
+.titulo1 {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    font-size: 2.5em;
+    color: #1D6542;
+}
+.titulo2{
+    display: flex;
+   justify-content: center;
+   font-size: 1.3em;
+   margin-bottom: 3em;
+    
+
+}
+.descripcion{
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5em;
+}
+.container-tasaciones{
+    display: flex;
+    justify-content: center;
+    line-height: 3.5em;
+}
+.descripcion-tasaciones{
+    width: 70%;
+    text-align: center;
+    margin-bottom: 3em;
+
+}
+.comentario{
+    margin-bottom: 3em;
+}
+/*Fin estilo  de titulos y descipciones  e informacion*/
+
+/*inicio del footer*/
+footer{
+    background-color: #1D6542;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    line-height: 3em;
+    flex-wrap: wrap;
+    
+    
+}
+.logo-footer{
+    width: 15em;
+    margin-top: 3em;
+    
+}
+.item-footer{
+    text-decoration: none;
+    color: white;
+    
+    
+}
+li{
+    list-style: none;
+}
+/*fin del footer*/
+
+/*Inicion de estilo del formulario*/
+
+
+.formulario, .formulario-comentario{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    border-bottom: 2px solid #1D6542;
+    width: 50%;
+    font-size: 1.3em;
+    margin-bottom: 1em;   
+    
+}
+
+.formulario-completo{
+    
+    text-align: center;
+}
+
+.formulario-comentario{
+    border: 2px solid #1D6542;
+    border-radius: 2%;
+}
+
+.boton-formulario{
+    width: 20%;
+    background-color: #1D6542 ;
+    color: white;
+    height: 2.5em;
+    
+}
+.boton-formulario:hover{
+    background-color: #2c9763;
+}
+.container-bot-form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 7em;
+    margin-top: 2em;
+}
+/*Fin de estilo del formulario*/
+
+/* Inicio de estilo de proctos alquiler, venta y emprendimientos*/
+.container-fotos{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 2em;
+    margin-bottom: 2em;
+}
+.container-fotos > a{
+    text-align: center;
+}
+
+.foto-producto{
+    width: 70%;
+}
+.foto-producto:hover{
+    width: 80%;
+}
+/* Fin de estilo de proctos alquiler, venta y emprendimientos*/
+
+@media screen and (max-width: 480px){
+    
+    .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
+    .header{ width: 70%;
+    }
+    .logo{
+        width: 60%;
+    }
+    .item {margin-right: 10%;font-size: 0.8.5em; }
+    .buscador-item{
+        width: 60%;
+        margin-right: 5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+    .buscador-palabra{
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+    .datos-footer{
+        margin-left: 15%;
+    }
+    .container-fotos{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-template-rows: auto;
+        gap: 2em;
+        margin-bottom: 2em;
+    }
+    .tasaciones-comentario{
+        width: 80%;
+        text-align: center;
+    }
+    .formulario, .formulario-comentario{
+        width: 80%;
+    }
+    .container-descripcion{
+        width: 80%;
+        margin-left: 10%;
+     }
+     .descripcion{
+         line-height: 2em;
+     }
+}
+
+@media screen and (min-width: 481px) and(max-width:2300px){
+    .social {width: 50%}
+    .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
+    .header{ width: 80%;
+    }
+    .logo{
+        width: 60%;
+    }
+    .buscador-item{
+        margin-bottom: 5%;
+    }
+    .foto-producto{
+        width: 90%;
+    }
+    
+}

@@ -1,0 +1,41 @@
+
+.header-container{
+        
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+  
+    
+   
+    
+}
+.header-logo, .header-wp, .header-correo, .header-facebook, .header-insta{
+    
+    display: flex;
+   align-items: center;
+   
+    
+}
+
+.logo{
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+.social{
+    width: 2rem;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 1rem;
+}
+
+
+
