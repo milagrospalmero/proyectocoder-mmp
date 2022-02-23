@@ -1,5 +1,7 @@
+@import "../base/variables";
+
 .nav-color{
-    background-color: #1D6542;
+    background-color: $color-primario;
 }
 .nav-position{
     display: flex;

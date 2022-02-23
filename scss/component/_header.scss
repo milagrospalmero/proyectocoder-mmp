@@ -1,7 +1,9 @@
+@import "../base/variables"; 
+
 
 .header-container{
         
-    background-color: white;
+    background-color: $color-letras;
     display: flex;
     justify-content: space-between;
     
@@ -35,6 +37,30 @@
     align-items: center;
     justify-content: space-between;
     padding-right: 1rem;
+}
+
+
+
+@media screen and (max-width: 480px){
+    
+    .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
+    .header{ width: 70%;
+    }
+    .logo{
+        width: 60%;
+    }
+    
+}
+
+@media screen and (min-width: 481px) and(max-width:2300px){
+    .social {width: 50%}
+    .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
+    .header{ width: 80%;
+    }
+    .logo{
+        width: 60%;
+    }
+    
 }
 
 

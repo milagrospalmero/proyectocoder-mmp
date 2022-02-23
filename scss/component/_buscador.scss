@@ -1,7 +1,10 @@
+@import "../base/variables";
+
 .foto-portada{
     width: 100%;
     
 }
+
 
 /*Estilo de buscador */
 
@@ -19,13 +22,13 @@
 .buscador-item{
     width: 15%;
     height: 3em;
-    border: 2px solid #1D6542;
+    border: 2px solid $color-primario;
     
     
 }
 .buscador-palabra{
     width: 30%;
-    border: 2px solid #1D6542;
+    border: 2px solid $color-primario;
     height: 3em;
 }
 .container-boton{
@@ -36,14 +39,38 @@
 }
 .boton-buscar{
     width: 20%;
-    background-color: #1D6542 ;
+    background-color: $color-primario;
     color: white;
     height: 2.5em;
     
 }
 .boton-buscar:hover{
-    background-color: #2c9763;
+    background-color: $color-secundario;
 }
 li{     
     border-radius: 3%;
+}
+
+@media screen and (max-width: 480px){
+      
+    .item {margin-right: 10%;font-size: 0.8.5em; }
+    .buscador-item{
+        width: 60%;
+        margin-right: 5%;
+        margin-top: 4%;
+        margin-bottom: 5%;
+    }
+    .buscador-palabra{
+        width: 80%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+    }
+}
+
+@media screen and (min-width: 481px) and(max-width:2300px){
+    
+    .buscador-item{
+        margin-bottom: 5%;
+    }
 }
