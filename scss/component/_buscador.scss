@@ -1,0 +1,49 @@
+.foto-portada{
+    width: 100%;
+    
+}
+
+/*Estilo de buscador */
+
+.buscador{
+    padding: 2%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;    
+    
+    
+}
+.buscador>p{
+    margin-top: 0.7%;
+}
+.buscador-item{
+    width: 15%;
+    height: 3em;
+    border: 2px solid #1D6542;
+    
+    
+}
+.buscador-palabra{
+    width: 30%;
+    border: 2px solid #1D6542;
+    height: 3em;
+}
+.container-boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    
+}
+.boton-buscar{
+    width: 20%;
+    background-color: #1D6542 ;
+    color: white;
+    height: 2.5em;
+    
+}
+.boton-buscar:hover{
+    background-color: #2c9763;
+}
+li{     
+    border-radius: 3%;
+}
