@@ -1,30 +1,27 @@
 @import "../base/variables";
 
-footer{
-    background-color: $color-primario;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: $color-letras;
-    line-height: 3em;
-    flex-wrap: wrap;
-    
-    
+footer {
+	background-color: $color-primario;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: $color-letras;
+	line-height: 3em;
+	flex-wrap: wrap;
 }
-.logo-footer{
-    width: 15em;
-    margin-top: 3em;
-    
+.logo-footer {
+	width: 15em;
+	margin-top: 3em;
 }
-.item-footer{
-    text-decoration: none;
-    color: $color-letras;
-    
-    
+.item-footer {
+	text-decoration: none;
+	color: $color-letras;
 }
-li{
-    list-style: none;
+li {
+	list-style: none;
 }
+
+/*
 
 @media screen and (max-width: 480px){
       
@@ -33,3 +30,4 @@ li{
         margin-left: 15%;
     }
 }
+*/

@@ -1,46 +1,52 @@
 @import "../base/variables"; 
 
 
-.header-container{
-        
-    background-color: $color-letras;
-    display: flex;
-    justify-content: space-between;
-    
+.header-container {
+	background-color: $color-letras;
+	display: flex;
+	justify-content: space-between;
 }
-.header{
-    width: 80%;
-    display: flex;
-    justify-content: space-between;
-  
-    
-   
-    
+.header {
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
 }
-.header-logo, .header-wp, .header-correo, .header-facebook, .header-insta{
-    
-    display: flex;
-   align-items: center;
-   
-    
+.header-logo {
+	display: flex;
+	align-items: center;
+}
+.header-wp {
+	display: flex;
+	align-items: center;
+}
+.header-correo {
+	display: flex;
+	align-items: center;
+}
+.header-facebook {
+	display: flex;
+	align-items: center;
+}
+.header-insta {
+	display: flex;
+	align-items: center;
+}
+.logo {
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
+}
+.social {
+	width: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 1rem;
 }
 
-.logo{
-    width: 40%;
-    display: flex;
-    justify-content: flex-start;
-}
-.social{
-    width: 2rem;
-    display: flex;
-    
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 1rem;
-}
 
 
-
+/*
 @media screen and (max-width: 480px){
     
     .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
@@ -62,6 +68,6 @@
     }
     
 }
-
+*/
 
 

@@ -8,49 +8,43 @@
 
 /*Estilo de buscador */
 
-.buscador{
-    padding: 2%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;    
-    
-    
+.buscador {
+	padding: 2%;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	>p {
+		margin-top: 0.7%;
+	}
 }
-.buscador>p{
-    margin-top: 0.7%;
+.buscador-item {
+	width: 15%;
+	height: 3em;
+	border: 2px solid $color-primario;
 }
-.buscador-item{
-    width: 15%;
-    height: 3em;
-    border: 2px solid $color-primario;
-    
-    
+.buscador-palabra {
+	width: 30%;
+	border: 2px solid $color-primario;
+	height: 3em;
 }
-.buscador-palabra{
-    width: 30%;
-    border: 2px solid $color-primario;
-    height: 3em;
+.container-boton {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 1em;
 }
-.container-boton{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-    
+.boton-buscar {
+	width: 20%;
+	background-color: $color-primario;
+	color: white;
+	height: 2.5em;
+	&:hover {
+		background-color: $color-secundario;
+	}
 }
-.boton-buscar{
-    width: 20%;
-    background-color: $color-primario;
-    color: white;
-    height: 2.5em;
-    
+li {
+	border-radius: 3%;
 }
-.boton-buscar:hover{
-    background-color: $color-secundario;
-}
-li{     
-    border-radius: 3%;
-}
-
+/*
 @media screen and (max-width: 480px){
       
     .item {margin-right: 10%;font-size: 0.8.5em; }
@@ -74,3 +68,4 @@ li{
         margin-bottom: 5%;
     }
 }
+*/
