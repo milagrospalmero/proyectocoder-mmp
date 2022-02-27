@@ -1,9 +1,19 @@
 @import "../base/variables";
 
+
+/*Inicio del Nav*/
+
+
 .nav-color{
     background-color: $color-primario;
-}
+        
+} 
 .nav-position{
     display: flex;
-    justify-content: space-around;
-}
+    justify-content: space-around;}
+
+ li {
+        border-radius: 3%;
+    }
+
+/*Fin del Nav*/

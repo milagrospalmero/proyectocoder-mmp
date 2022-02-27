@@ -1,4 +1,6 @@
 /* Inicio de estilo de proctos alquiler, venta y emprendimientos*/
+
+
 .container-fotos {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -8,23 +10,8 @@
 	>a {
 		text-align: center;
 	}
-}
-
-.foto-producto {
-	width: 70%;
-	&:hover {
-		width: 80%;
-	}
-}
-
-
-
-/*
-@media screen and (max-width: 480px){
+	@media screen and (max-width: 480px){
       
-    
-   
-    .container-fotos{
         display: grid;
         grid-template-columns: 1fr ;
         grid-template-rows: auto;
@@ -33,13 +20,14 @@
     }
 }
 
-
-@media screen and (min-width: 481px) and(max-width:2300px){
-    
-    
-    .foto-producto{
+.foto-producto {
+	width: 70%;
+	&:hover {
+		width: 80%;
+	}
+	@media screen and (min-width: 481px) and(max-width:2300px){
         width: 90%;
     }
-    
 }
-*/
+
+/* Fin de estilo de proctos alquiler, venta y emprendimientos*/

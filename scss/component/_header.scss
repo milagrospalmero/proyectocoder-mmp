@@ -1,73 +1,52 @@
-@import "../base/variables"; 
+@import "../base/variables";
 
+/*Inicio de Header*/
 
-.header-container {
+.header-container{
 	background-color: $color-letras;
 	display: flex;
 	justify-content: space-between;
-}
-.header {
-	width: 80%;
-	display: flex;
-	justify-content: space-between;
-}
-.header-logo {
-	display: flex;
-	align-items: center;
-}
-.header-wp {
-	display: flex;
-	align-items: center;
-}
-.header-correo {
-	display: flex;
-	align-items: center;
-}
-.header-facebook {
-	display: flex;
-	align-items: center;
-}
-.header-insta {
-	display: flex;
-	align-items: center;
-}
-.logo {
-	width: 40%;
-	display: flex;
-	justify-content: flex-start;
-}
-.social {
-	width: 2rem;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding-right: 1rem;
+
+	.header{
+		width: 80%;
+		display: flex;
+		justify-content: space-between;
+
+		@media screen and (max-width: 480px){
+			width: 70%;
+		   }
+		@media screen and (min-width: 481px) and(max-width:2300px){ width: 80%;
+		}
+
+		.header-logo{
+			display: flex;
+			align-items: center;
+			.logo{
+				width: 40%;
+				display: flex;
+				justify-content: flex-start;
+
+				@media screen and (max-width: 480px){
+					width: 60%;
+				}
+				@media screen and (min-width: 481px) and(max-width:2300px){
+					width: 60%;
+				}
+			}
+		}
+		.social{
+			width: 2rem;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding-right: 1rem;
+
+			@media screen and (min-width: 481px) and(max-width:2300px){width: 50%}
+		}
+	}
 }
 
 
 
-/*
-@media screen and (max-width: 480px){
-    
-    .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
-    .header{ width: 70%;
-    }
-    .logo{
-        width: 60%;
-    }
-    
-}
-
-@media screen and (min-width: 481px) and(max-width:2300px){
-    .social {width: 50%}
-    .barra{ width: 80%; display: grid; grid-template-columns: 1fr 1fr; grid-column-gap:5em ; }
-    .header{ width: 80%;
-    }
-    .logo{
-        width: 60%;
-    }
-    
-}
-*/
-
+/*Fin de Header*/
 

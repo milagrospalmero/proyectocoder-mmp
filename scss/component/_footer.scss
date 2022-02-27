@@ -1,6 +1,7 @@
 @import "../base/variables";
 
-footer {
+/*Inicio Footer*/
+footer{
 	background-color: $color-primario;
 	display: flex;
 	justify-content: space-around;
@@ -8,26 +9,41 @@ footer {
 	color: $color-letras;
 	line-height: 3em;
 	flex-wrap: wrap;
-}
-.logo-footer {
-	width: 15em;
-	margin-top: 3em;
-}
-.item-footer {
-	text-decoration: none;
-	color: $color-letras;
-}
-li {
-	list-style: none;
+
+	.container-datos-footer{
+		.datos-footer{
+			@media screen and (max-width: 480px){
+				margin-left: 15%;
+			
+		}
+		}
+
+	}
+	.container-logo-footer{
+		.logo-footer{
+			width: 15em;
+			margin-top: 3em;
+
+		}
+
+	}
+	.nav-footer{
+		nav{
+			ul{
+				li{
+					list-style: none;
+
+					.item-footer{
+						text-decoration: none;
+						color: $color-letras;
+
+					}
+				}
+			}
+		}
+		
+	}
+
 }
 
-/*
-
-@media screen and (max-width: 480px){
-      
-    
-    .datos-footer{
-        margin-left: 15%;
-    }
-}
-*/
+/*Fin Footer*/

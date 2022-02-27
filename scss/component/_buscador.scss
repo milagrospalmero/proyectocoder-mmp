@@ -1,71 +1,68 @@
 @import "../base/variables";
 
+/*Foto de Portada*/
+
 .foto-portada{
     width: 100%;
     
 }
 
 
-/*Estilo de buscador */
+/* Inicio Estilo de buscador */
 
-.buscador {
-	padding: 2%;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	>p {
-		margin-top: 0.7%;
+.container-buscador{
+
+	.buscador{
+		padding: 2%;
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+
+		>p{
+			margin-top: 0.7%;
+		}
+		.buscador-item{
+			width: 15%;
+			height: 3em;
+			border: 2px solid $color-primario;
+
+			@media screen and (max-width: 480px){
+      				width: 60%;
+					margin-right: 5%;
+					margin-top: 4%;
+					margin-bottom: 5%;
+				}
+		}
+		.buscador-palabra{
+			width: 30%;
+			border: 2px solid $color-primario;
+			height: 3em;
+			
+			@media screen and (max-width: 480px){
+				width: 80%;
+				margin-top: 5%;
+				margin-bottom: 5%;
+			
+				}
+		}
+		
+	}
+	.container-boton{
+		display: flex;
+		justify-content: center;
+		margin-bottom: 1em;
+
+		.boton-buscar{
+			width: 20%;
+			background-color: $color-primario;
+			color: white;
+			height: 2.5em;
+			&:hover {
+				background-color: $color-secundario;
+			}
+		}
+
 	}
 }
-.buscador-item {
-	width: 15%;
-	height: 3em;
-	border: 2px solid $color-primario;
-}
-.buscador-palabra {
-	width: 30%;
-	border: 2px solid $color-primario;
-	height: 3em;
-}
-.container-boton {
-	display: flex;
-	justify-content: center;
-	margin-bottom: 1em;
-}
-.boton-buscar {
-	width: 20%;
-	background-color: $color-primario;
-	color: white;
-	height: 2.5em;
-	&:hover {
-		background-color: $color-secundario;
-	}
-}
-li {
-	border-radius: 3%;
-}
-/*
-@media screen and (max-width: 480px){
-      
-    .item {margin-right: 10%;font-size: 0.8.5em; }
-    .buscador-item{
-        width: 60%;
-        margin-right: 5%;
-        margin-top: 4%;
-        margin-bottom: 5%;
-    }
-    .buscador-palabra{
-        width: 80%;
-        margin-top: 5%;
-        margin-bottom: 5%;
-        
-    }
-}
 
-@media screen and (min-width: 481px) and(max-width:2300px){
-    
-    .buscador-item{
-        margin-bottom: 5%;
-    }
-}
-*/
+/*Fin Estilo Buscador*/
