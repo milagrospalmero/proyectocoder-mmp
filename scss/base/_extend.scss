@@ -1,0 +1,14 @@
+%alineacion-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+%alineacion-arouond{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+%alineacion-center{
+    display: flex;
+    justify-content: center;
+}

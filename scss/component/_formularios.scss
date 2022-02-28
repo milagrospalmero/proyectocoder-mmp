@@ -35,8 +35,7 @@ main{
 			}
 		}
 		.container-bot-form{
-			display: flex;
-			justify-content: center;
+			@extend %alineacion-center;
 			margin-bottom: 7em;
 			margin-top: 2em;
 

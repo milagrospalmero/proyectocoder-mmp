@@ -3,9 +3,7 @@
 /*Inicio Footer*/
 footer{
 	background-color: $color-primario;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
+	@extend %alineacion-arouond;
 	color: $color-letras;
 	line-height: 3em;
 	flex-wrap: wrap;

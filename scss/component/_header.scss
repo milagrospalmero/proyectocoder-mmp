@@ -1,11 +1,11 @@
 @import "../base/variables";
+@import "../base/extend";
 
 /*Inicio de Header*/
 
 .header-container{
 	background-color: $color-letras;
-	display: flex;
-	justify-content: space-between;
+	@extend %alineacion-between; 
 
 	.header{
 		width: 80%;
@@ -19,8 +19,7 @@
 		}
 
 		.header-logo{
-			display: flex;
-			align-items: center;
+			@extend %alineacion-center;
 			.logo{
 				width: 40%;
 				display: flex;
@@ -36,9 +35,8 @@
 		}
 		.social{
 			width: 2rem;
-			display: flex;
+			@extend %alineacion-between;
 			align-items: center;
-			justify-content: space-between;
 			padding-right: 1rem;
 
 			@media screen and (min-width: 481px) and(max-width:2300px){width: 50%}

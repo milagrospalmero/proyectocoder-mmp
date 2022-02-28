@@ -1,4 +1,5 @@
 @import "../base/variables";
+@import "../base/extend";
 
 /*Foto de Portada*/
 
@@ -48,8 +49,7 @@
 		
 	}
 	.container-boton{
-		display: flex;
-		justify-content: center;
+		@extend %alineacion-center;
 		margin-bottom: 1em;
 
 		.boton-buscar{
