@@ -219,6 +219,22 @@ main .container-formulario .container-bot-form, .container-gral-info .container-
 }
 
 /*Fin estilo de titulos y descipciones  e informacion*/
+.header-container, .header-container .header .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .container-formulario .container-bot-form, .header-container .header .header-logo, .container-buscador .container-boton, .container-gral-nosotros .container-desc-nosotros, .container-tasaciones, .titulo2, .container-gral-info .container-descripcion .descripcion {
+  display: flex;
+  justify-content: center;
+}
+
 /*Inicio Footer*/
 footer {
   background-color: #1D6542;
@@ -244,6 +260,22 @@ footer .nav-footer nav ul li .item-footer {
 }
 
 /*Fin Footer*/
+.header-container, .header-container .header .social {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .container-formulario .container-bot-form, .header-container .header .header-logo, .container-buscador .container-boton, .container-gral-nosotros .container-desc-nosotros, .container-tasaciones, .titulo2, .container-gral-info .container-descripcion .descripcion {
+  display: flex;
+  justify-content: center;
+}
+
 /*Inicio de estilo del formulario*/
 main .container-formulario .formulario-completo {
   text-align: center;
