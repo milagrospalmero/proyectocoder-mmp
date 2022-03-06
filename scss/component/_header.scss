@@ -20,16 +20,16 @@
 
 		.header-logo{
 			@extend %alineacion-center;
-			.logo{
-				width: 40%;
-				display: flex;
-				justify-content: flex-start;
-
-				@media screen and (max-width: 480px){
-					width: 60%;
-				}
-				@media screen and (min-width: 481px) and(max-width:2300px){
-					width: 60%;
+			.container-logo{
+				
+				.logo{
+					display: flex;
+					justify-content: flex-start;
+					width: 17rem;
+					@media screen and (max-width: 480px){
+						width: 9rem;
+					}
+					
 				}
 			}
 		}

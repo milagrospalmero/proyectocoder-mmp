@@ -33,19 +33,14 @@ main .container-formulario .container-bot-form, .container-gral-info .container-
     width: 80%;
   }
 }
-.header-container .header .header-logo .logo {
-  width: 40%;
+.header-container .header .header-logo .container-logo .logo {
   display: flex;
   justify-content: flex-start;
+  width: 17rem;
 }
 @media screen and (max-width: 480px) {
-  .header-container .header .header-logo .logo {
-    width: 60%;
-  }
-}
-@media screen and (min-width: 481px) and (max-width: 2300px) {
-  .header-container .header .header-logo .logo {
-    width: 60%;
+  .header-container .header .header-logo .container-logo .logo {
+    width: 9rem;
   }
 }
 .header-container .header .social {
