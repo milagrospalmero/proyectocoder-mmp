@@ -42,10 +42,12 @@
 			
 			padding-right: 1rem;
 			
-			@media screen and (min-width: 481px) and(max-width:9000px){width: 2rem}
+			@media screen and (min-width: 481px) and(max-width:9000px){
+				width: 2rem
+				}
 			@media screen and (max-width:480px){
 				width: 2rem
-			}
+				}
 			}
 		}
 	}
