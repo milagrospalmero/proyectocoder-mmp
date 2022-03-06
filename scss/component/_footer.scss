@@ -8,13 +8,20 @@ footer{
 	color: $color-letras;
 	line-height: 3em;
 	flex-wrap: wrap;
+	
+	@media screen and (min-width:481px) and (max-width:800px){
+		display: flex;
+		flex-direction: column;
+	}
 
 	.container-datos-footer{
+		
 		.datos-footer{
 			@media screen and (max-width: 480px){
 				margin-left: 15%;
 			
-		}
+			}
+			
 		}
 
 	}
@@ -22,6 +29,9 @@ footer{
 		.logo-footer{
 			width: 15em;
 			margin-top: 3em;
+			@media screen and (min-width:481px) and (max-width:800px){
+				width: 10rem;
+			}
 
 		}
 

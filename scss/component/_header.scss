@@ -8,7 +8,7 @@
 	@extend %alineacion-between; 
 
 	.header{
-		width: 80%;
+		width: 70%;
 		display: flex;
 		justify-content: space-between;
 
@@ -34,12 +34,19 @@
 			}
 		}
 		.social{
-			width: 2rem;
 			@extend %alineacion-between;
 			align-items: center;
-			padding-right: 1rem;
+			width: 2rem;
 
-			@media screen and (min-width: 481px) and(max-width:2300px){width: 50%}
+			.social-int{
+			
+			padding-right: 1rem;
+			
+			@media screen and (min-width: 481px) and(max-width:9000px){width: 2rem}
+			@media screen and (max-width:480px){
+				width: 2rem
+			}
+			}
 		}
 	}
 }
