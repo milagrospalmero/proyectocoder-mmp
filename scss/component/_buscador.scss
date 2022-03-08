@@ -33,6 +33,12 @@
 					margin-top: 4%;
 					margin-bottom: 5%;
 				}
+				@media screen and (min-width: 480px) and (max-width: 700px){
+				
+				  margin-right: 5%;
+				  margin-top: 1%;
+				  margin-bottom: 1%;
+			  }
 		}
 		.buscador-palabra{
 			width: 30%;

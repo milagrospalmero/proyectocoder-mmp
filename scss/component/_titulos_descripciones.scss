@@ -72,9 +72,12 @@
 }
 .container-gral-info{
     .container-descripcion{
+        @extend %alineacion-center;
         .descripcion{
-             @extend %alineacion-center;
+             width: 60%;
              margin-bottom: 5em;
+             text-align: center;
+             
         }
     }
 }
